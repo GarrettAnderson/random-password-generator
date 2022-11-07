@@ -1,5 +1,10 @@
 // Assignment code here
 
+const passwordChars= "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()"
+
+function generatePassword() {
+  // 
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
