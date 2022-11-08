@@ -2,6 +2,17 @@
 
 const passwordChars= "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()"
 
+// create a object with key of number and values, another key of lower case alphabet, another key of uppercase alphabet, key of special characters
+
+const chars = {
+  num: "1234567890",
+  alphaLower: "abcdefghijklmnopqrstuvwxyz",
+  alphaUpper: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  specialChars: "!@#$%^&*()"
+}
+
+// math.floor(math.random() * string.length) -> give the index of the string
+
 function generatePassword() {
   // 
 }
