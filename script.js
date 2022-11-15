@@ -64,7 +64,7 @@ function promptCriteria() {
     } else if (uppercaseChars == "no" && lowercaseChars == "no"  && specialChars == "no" && numberChars == "no") {
       stringToRandomize = chars["specialChars"]
       console.log(stringToRandomize)
-    } else if (uppercaseChars == "" || lowercaseChars == "" || specialChars == "" || numberChars == "") {
+    } else if (uppercaseChars == "" && lowercaseChars == "" && specialChars == "" && numberChars == "") {
       stringToRandomize = chars["num"]
       console.log(stringToRandomize)
     }
