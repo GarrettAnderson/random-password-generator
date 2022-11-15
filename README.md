@@ -25,6 +25,7 @@ Below is a screenshot for the project:
 Used the following as a reference to help with the project:
 
 * [Stack Overflow](https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts)
+* [MDN Switch Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 
 ## License
