@@ -11,14 +11,14 @@ Just need to download the source files from the github repository onto local. Op
 
 ## Usage
 
-This project allows the user to randomly generate a password after following a series of prompts.
+This project allows the user to randomly generate a password after following a series of prompts. Click the 'Generate Password' button and follow the prompts.
 
 
 To view this application on Github Pages click [here](https://garrettanderson.github.io/random-password-generator/).
 
 Below is a screenshot for the project:
 
-![](assets/images/)
+![](assets/images/screenshot.png)
 
 ## Credits
 
