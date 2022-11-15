@@ -49,6 +49,7 @@ function promptCriteria() {
     
     //use the confirm method to see if condition is met
 
+ 
     switch (uppercaseChars !== "" || lowercaseChars !== "" || specialChars !== "" || numberChars !== "") {
       case uppercaseChars == "yes" && lowercaseChars == "yes" && specialChars == "yes" && numberChars == "yes":
         stringToRandomize = chars["alphaUpper"]+ chars["alphaLower"] + chars["specialChars"] + chars["num"]
@@ -68,28 +69,8 @@ function promptCriteria() {
       default:
         stringToRandomize = chars["num"]
     }
-
-    /*
-    if (uppercaseChars == "yes" && lowercaseChars == "yes" && specialChars == "yes" && numberChars == "yes") {
-      stringToRandomize = chars["alphaUpper"]+ chars["alphaLower"] + chars["specialChars"] + chars["num"]
-      console.log(stringToRandomize, lengthOfPassword)
-    } else if (uppercaseChars == "yes" && lowercaseChars == "yes"  && specialChars == "yes" && numberChars == "no" ) { 
-      stringToRandomize = chars["alphaUpper"] + chars["alphaLower"] + chars["specialChars"]
-      console.log(stringToRandomize)
-    } else if (uppercaseChars == "yes" && lowercaseChars == "yes"  && specialChars == "no" && numberChars == "no") {
-      stringToRandomize = chars["alphaUpper"] + chars["alphaLower"]
-      console.log(stringToRandomize)
-    } else if (uppercaseChars == "yes" && lowercaseChars == "no"  && specialChars == "no" && numberChars == "no") {
-      stringToRandomize = chars["alphaUpper"]
-      console.log(stringToRandomize)
-    } else if (uppercaseChars == "no" && lowercaseChars == "no"  && specialChars == "no" && numberChars == "no") {
-      stringToRandomize = chars["specialChars"]
-      console.log(stringToRandomize)
-    } else if (uppercaseChars == "" && lowercaseChars == "" && specialChars == "" && numberChars == "") {
-      stringToRandomize = chars["num"]
-      console.log(stringToRandomize)
-    }
-    */
+  
+  
   }
   
   
