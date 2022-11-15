@@ -1,4 +1,4 @@
-# random-password-generator
+# Random-Password-Generator
 Generate a password randomly given certain criteria.
 
 ## Description
