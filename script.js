@@ -48,7 +48,28 @@ function promptCriteria() {
     // if user writes yes for lowercase letters, add lowercase letters from object to same string as above
     
     //use the confirm method to see if condition is met
-    
+
+    switch (uppercaseChars !== "" || lowercaseChars !== "" || specialChars !== "" || numberChars !== "") {
+      case uppercaseChars == "yes" && lowercaseChars == "yes" && specialChars == "yes" && numberChars == "yes":
+        stringToRandomize = chars["alphaUpper"]+ chars["alphaLower"] + chars["specialChars"] + chars["num"]
+        break
+      case uppercaseChars == "yes" && lowercaseChars == "yes"  && specialChars == "yes" && numberChars == "no":
+        stringToRandomize = chars["alphaUpper"] + chars["alphaLower"] + chars["specialChars"]
+        break
+      case uppercaseChars == "yes" && lowercaseChars == "yes"  && specialChars == "no" && numberChars == "no":
+        stringToRandomize = chars["alphaUpper"] + chars["alphaLower"]
+        break
+      case uppercaseChars == "yes" && lowercaseChars == "no"  && specialChars == "no" && numberChars == "no":
+        stringToRandomize = chars["alphaUpper"]
+        break
+      case uppercaseChars == "no" && lowercaseChars == "no"  && specialChars == "no" && numberChars == "no":
+        stringToRandomize = chars["specialChars"]
+        break
+      default:
+        stringToRandomize = chars["num"]
+    }
+
+    /*
     if (uppercaseChars == "yes" && lowercaseChars == "yes" && specialChars == "yes" && numberChars == "yes") {
       stringToRandomize = chars["alphaUpper"]+ chars["alphaLower"] + chars["specialChars"] + chars["num"]
       console.log(stringToRandomize, lengthOfPassword)
@@ -68,6 +89,7 @@ function promptCriteria() {
       stringToRandomize = chars["num"]
       console.log(stringToRandomize)
     }
+    */
   }
   
   
